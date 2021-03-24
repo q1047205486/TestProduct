@@ -49,6 +49,11 @@
     
     
 }
+-(void)dddd{
+    
+    
+    
+}
 
 - (void)persentView{
     [self.navigationController pushViewController:[SViewController new] animated:true];
