@@ -42,6 +42,7 @@
 //    btnView.backgroundColor = [UIColor grayColor];
 //    [self.view addSubview:btnView];
 //    btnView.delegate = (id<TestViewDelegate>)manager;
+    //ce
 }
 
 -(void)test{
