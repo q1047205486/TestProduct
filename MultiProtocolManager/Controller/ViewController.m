@@ -44,6 +44,11 @@
 //    btnView.delegate = (id<TestViewDelegate>)manager;
 }
 
+-(void)test{
+    
+    
+}
+
 - (void)persentView{
     [self.navigationController pushViewController:[SViewController new] animated:true];
 }
