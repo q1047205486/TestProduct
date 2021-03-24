@@ -12,7 +12,7 @@
 #import "TestView.h"
 #import "ButtonView.h"
 
-//////dasdasdasdasdasdas
+
 @interface ViewController ()<TestViewDelegate,TestViewBtnDelegate>
 
 @end
@@ -48,19 +48,19 @@
     [self.navigationController pushViewController:[SViewController new] animated:true];
 }
 - (void)dealloc{
-    NSLog(@"==%s=dealloc===",__func__);
+    NSLog(@"dealloc=%s=dealloc===",__func__);
 }
 
 - (void)tapView:(UIView *)view{
-    NSLog(@"==%s==%@==",__func__,view);
+    NSLog(@"tapView==%s==%@==",__func__,view);
 }
 
 - (void)tapBtn:(UIButton *)btn{
-    NSLog(@"Ve-==%s==%@==",__func__,btn);
+    NSLog(@"tapBtnVe-==%s==%@==",__func__,btn);
 }
 
 - (void)printDescrtion{
-    NSLog(@"asdasdasdasda");
+    NSLog(@"printDescrtionasdasdasdasda");
 }
 
 
