@@ -46,7 +46,7 @@
 
 -(void)test{
     
-    NSLog(@"fasdfasdfasdfasd");
+    NSLog(@"fasdfasdfasdfasdss");
 }
 
 - (void)persentView{
