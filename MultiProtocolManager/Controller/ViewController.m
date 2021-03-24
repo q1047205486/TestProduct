@@ -44,10 +44,6 @@
 //    btnView.delegate = (id<TestViewDelegate>)manager;
 }
 
--(void)test{
-    
-    NSLog(@"fasdfasdfasdfasdss");
-}
 
 - (void)persentView{
     [self.navigationController pushViewController:[SViewController new] animated:true];
